@@ -41,7 +41,7 @@ function Submit(props) {
           </tr>
           <tr>
             <td>Anything extra: </td>
-            <td><b>"{props.summary.extra !== "" ? props.summary.extra : "Nothing"}"</b></td>
+            <td><b>{props.summary.extra}</b></td>
           </tr>
         </tbody>
       </table>
